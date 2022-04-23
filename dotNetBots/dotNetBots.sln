@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetBots", "dotNetBots.csproj", "{EAA75C3E-5151-4A9F-B709-5493DF7B56C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNetBots.Web", "dotNetBots.Web.csproj", "{EAA75C3E-5151-4A9F-B709-5493DF7B56C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetBots.Data", "..\dotNetBots.Data\dotNetBots.Data.csproj", "{4C2B6D8B-9B74-4E2B-9FF6-8E089689E423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetBots.Services", "..\dotNetBots.Services\dotNetBots.Services.csproj", "{8E12E23C-DCEA-4027-B73F-F66FFBBD1969}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{EAA75C3E-5151-4A9F-B709-5493DF7B56C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAA75C3E-5151-4A9F-B709-5493DF7B56C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAA75C3E-5151-4A9F-B709-5493DF7B56C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2B6D8B-9B74-4E2B-9FF6-8E089689E423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2B6D8B-9B74-4E2B-9FF6-8E089689E423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2B6D8B-9B74-4E2B-9FF6-8E089689E423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2B6D8B-9B74-4E2B-9FF6-8E089689E423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E12E23C-DCEA-4027-B73F-F66FFBBD1969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E12E23C-DCEA-4027-B73F-F66FFBBD1969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E12E23C-DCEA-4027-B73F-F66FFBBD1969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E12E23C-DCEA-4027-B73F-F66FFBBD1969}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
